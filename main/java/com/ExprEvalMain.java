@@ -7,7 +7,7 @@ import org.antlr.v4.runtime.tree.*;
 class ExprEvalMain {
 public static void main(String[] args) throws Exception {
 		// create input stream
-		CharStream input = CharStreams.fromString(" 2 + -1");
+		CharStreams.fromString("4 + 5 - 2");
 		// create lexer
 		com.compiler.antlr.languageLexer lexer = new com.compiler.antlr.languageLexer(input);
 		// create token stream
